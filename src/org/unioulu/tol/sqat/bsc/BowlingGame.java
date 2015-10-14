@@ -16,8 +16,11 @@ public class BowlingGame {
 	
 	public void BowlingGame(int firstThrow, int secondThrow){
 		setScore(firstThrow, secondThrow);
-		setBonus(firstThrow, secondThrow);
+		if(isNextFrameBonus()){
+			setBonus(firstThrow, secondThrow);
+		}
 		totalScore = this.score() + curScore;
+		
 	}
 	
 	public void addFrame(Frame frame){
