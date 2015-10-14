@@ -8,23 +8,24 @@ public class BowlingGame {
 	private List<Frame> frames = new ArrayList<Frame>();
 	private Frame bonus;
 	
-	public BowlingGame(){}
+	public BowlingGame(){
+		
+		
+		
+	}
 	
 	public void addFrame(Frame frame){
 		//to be implemented
-		frames.add(frame);
+		for(int i=0; i<=10; i++){
+			frames.add(frame)
+		}
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) {
 		//to be implemented
 		
-		//Check if there is a strike
-		if(firstThrow==10){
+		if(firstThrow==10 || (firstThrow+secondThrow)==10){
 			
-		}else if((firstThrow+secondThrow)==10){//Check if there is a spare
-			
-		}else{
-			bonus.bonus();
 		}
 	}
 	
