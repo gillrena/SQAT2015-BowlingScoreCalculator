@@ -27,9 +27,10 @@ public class BowlingGame {
 	public void setBonus(int firstThrow, int secondThrow) {
 		//to be implemented
 		if(getPrevFrame().isStrike()){
-			bonus.bonus(fristThrow);
+			bonus.bonus(firstThrow);
+		}else if(getPrevFrame().isSpare()){
+			bonus.bonus(firstThrow+secondThrow);
 		}
-		
 		
 	}
 	
@@ -40,11 +41,7 @@ public class BowlingGame {
 	
 	public boolean isNextFrameBonus(){
 		//to be implemented
-		if(bonus.bonus()>0){
-			return true;
-		}else{
-			return false;
-		}
+		return false;
 	}
 	
 	private Frame getPrevFrame(){

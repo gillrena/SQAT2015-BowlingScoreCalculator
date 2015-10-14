@@ -28,3 +28,11 @@ RefactoringAction 1444827248757 Frame.java RENAME bonus()=>int bonus(int) METHOD
 EditAction 1444827259654 BowlingGame.java 954 6 5 0
 CompilationAction 1444827259910 BowlingGame.java
 EditAction 1444827264747 Frame.java 1458 10 14 0
+CompilationAction 1444827265005 BowlingGame.java
+CompilationAction 1444827265005 BowlingGame.java
+CompilationAction 1444827265005 Frame.java
+CompilationAction 1444827309221 BowlingGame.java
+CompilationAction 1444827309372 BowlingGame.java
+CompilationAction 1444827315557 BowlingGame.java
+CompilationAction 1444827315711 BowlingGame.java
+EditAction 1444827349219 Frame.java 1433 10 13 0

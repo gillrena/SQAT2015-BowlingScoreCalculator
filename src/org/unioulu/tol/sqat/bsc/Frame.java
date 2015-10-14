@@ -69,9 +69,6 @@ public class Frame {
 	//bonus throws
 	public int bonus(int bonus){
 		//to be implemented
-		if(isStrike()){
-			
-		}
-		return 0;
+		return bonus;
 	}
 }
