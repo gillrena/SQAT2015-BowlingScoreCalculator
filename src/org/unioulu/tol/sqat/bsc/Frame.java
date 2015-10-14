@@ -14,15 +14,15 @@ public class Frame {
 		//to be implemented
 		int totalScores = 0;
 		if(isStrike()){
-			totalScores = 0;
+			totalScores = bonus() + 10;
 		}else if(isSpare()){
-			totalScores = 0;
+			totalScores = bonus() + 10;
 		}else{
 			totalScores = firstThrow + secondThrow;
 		}
 		
 		
-		return 0;
+		return totalScores;
 	}
 
 	//returns whether the frame is a strike or not
