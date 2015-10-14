@@ -26,3 +26,5 @@ RefactoringAction 1444826817638 Frame.java ADD void setSecondThrow(int) METHOD
 EditAction 1444826818897 Frame.java 1449 10 14 0
 RefactoringAction 1444827248757 Frame.java RENAME bonus()=>int bonus(int) METHOD
 EditAction 1444827259654 BowlingGame.java 954 6 5 0
+CompilationAction 1444827259910 BowlingGame.java
+EditAction 1444827264747 Frame.java 1458 10 14 0
