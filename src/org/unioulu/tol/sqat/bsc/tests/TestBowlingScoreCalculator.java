@@ -9,7 +9,7 @@ public class TestBowlingScoreCalculator {
 
 	@Test
 	public void test() {
-		int score = game.score();
+		
 		
 	}
 

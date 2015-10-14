@@ -77,3 +77,12 @@ CompilationAction 1444828718011 TestBowlingScoreCalculator.java
 RefactoringAction 1444828766048 BowlingGame.java RENAME BowlingGame()=>void roll() METHOD
 RefactoringAction 1444828773071 BowlingGame.java RENAME roll()=>void roll(int) METHOD
 EditAction 1444828775004 BowlingGame.java 1284 7 7 0
+CompilationAction 1444828775274 BowlingGame.java
+RefactoringAction 1444828825114 BowlingGame.java RENAME roll(int)=>void roll(int, int) METHOD
+RefactoringAction 1444828835131 BowlingGame.java RENAME roll(int, int)=>void BowlingGame(int, int) METHOD
+RefactoringAction 1444828946160 BowlingGame.java ADD void setScore() METHOD
+RefactoringAction 1444828957207 BowlingGame.java RENAME setScore()=>void setScore(int, int) METHOD
+CompilationAction 1444829272283 BowlingGame.java
+CompilationAction 1444829272440 TestBowlingScoreCalculator.java
+CompilationAction 1444829277112 TestBowlingScoreCalculator.java
+EditAction 1444829279639 Frame.java 1358 10 14 0

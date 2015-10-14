@@ -11,10 +11,10 @@ public class BowlingGame {
 	private int prevTotalScore = 0;
 	private int bonusForPrevFrame = 0;
 	
-	public roll(int noOfPins){
+	public void BowlingGame(int firstThrow, int secondThrow){
 		
-		
-		
+		setScore(firstThrow, secondThrow);
+		setBonus(firstThrow, secondThrow);
 	}
 	
 	public void addFrame(Frame frame){
@@ -33,6 +33,10 @@ public class BowlingGame {
 			bonusForPrevFrame = firstThrow+secondThrow;
 		}
 		
+	}
+	
+	public int setScore(int firstThrow, int secondThrow){
+		return firstThrow + secondThrow;
 	}
 	
 	public int score(){

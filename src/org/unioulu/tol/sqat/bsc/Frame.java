@@ -62,6 +62,10 @@ public class Frame {
 	//bonus throws
 	public int bonus(){
 		//to be implemented
+		BowlingGame game = new BowlingGame();
+		if(isStrike()||isSpare()){
+			
+		}
 		return 0;
 	}
 }
