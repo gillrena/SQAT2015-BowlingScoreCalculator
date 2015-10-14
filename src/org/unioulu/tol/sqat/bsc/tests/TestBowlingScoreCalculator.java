@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class TestBowlingScoreCalculator {
-	private BowlingGame() game;
+	//BowlingGame game = new BowlingGame();
 
 	@Test
 	public void test() {

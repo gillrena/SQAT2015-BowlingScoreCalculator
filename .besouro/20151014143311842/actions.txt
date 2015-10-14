@@ -107,3 +107,15 @@ RefactoringAction 1444830004981 TestBowlingScoreCalculator.java ADD BowlingGame 
 RefactoringAction 1444830007490 TestBowlingScoreCalculator.java RENAME BowlingGame=>BowlingGame game FIELD
 RefactoringAction 1444830014505 TestBowlingScoreCalculator.java RENAME game=>void BowlingGame() METHOD
 EditAction 1444830015103 TestBowlingScoreCalculator.java 229 2 0 0
+CompilationAction 1444830015351 TestBowlingScoreCalculator.java
+CompilationAction 1444830015351 TestBowlingScoreCalculator.java
+RefactoringAction 1444830025027 TestBowlingScoreCalculator.java RENAME BowlingGame()=>BowlingGame game FIELD
+CompilationAction 1444830028766 TestBowlingScoreCalculator.java
+CompilationAction 1444830028767 TestBowlingScoreCalculator.java
+CompilationAction 1444830028896 TestBowlingScoreCalculator.java
+CompilationAction 1444830044890 TestBowlingScoreCalculator.java
+CompilationAction 1444830045041 TestBowlingScoreCalculator.java
+CompilationAction 1444830072336 TestBowlingScoreCalculator.java
+CompilationAction 1444830072494 TestBowlingScoreCalculator.java
+FileOpenedAction 1444830079718 SudokuVerifier.java 2640 5 22 0
+CompilationAction 1444830124728 TestBowlingScoreCalculator.java
