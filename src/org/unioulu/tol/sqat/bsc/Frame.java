@@ -28,15 +28,7 @@ public class Frame {
 	//the score of a single frame
 	public int score(){
 		//to be implemented
-		int totalScores = 0;
-		/*if(isStrike()){
-			totalScores = bonus() + 10;
-		}else if(isSpare()){
-			totalScores = bonus() + 10;
-		}else{
-			totalScores = firstThrow + secondThrow;
-		}*/
-		
+		int totalScores = firstThrow + secondThrow;
 		return totalScores;
 	}
 

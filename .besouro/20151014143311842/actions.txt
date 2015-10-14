@@ -64,3 +64,4 @@ RefactoringAction 1444827921636 BowlingGame.java RENAME getPrevFrame()/2=>Frame 
 RefactoringAction 1444827922649 BowlingGame.java RENAME getCFrame()=>Frame getCurFrame() METHOD
 EditAction 1444827926960 BowlingGame.java 1209 7 7 0
 EditAction 1444828001713 BowlingGame.java 1302 7 7 0
+EditAction 1444828068897 Frame.java 1273 10 12 0
