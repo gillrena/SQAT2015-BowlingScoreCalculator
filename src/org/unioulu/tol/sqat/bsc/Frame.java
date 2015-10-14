@@ -21,7 +21,6 @@ public class Frame {
 			totalScores = firstThrow + secondThrow;
 		}
 		
-		
 		return totalScores;
 	}
 
