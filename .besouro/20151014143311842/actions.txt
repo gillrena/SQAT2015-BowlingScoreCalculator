@@ -99,3 +99,5 @@ RefactoringAction 1444829645262 BowlingGame.java ADD Frame frame FIELD
 CompilationAction 1444829648056 BowlingGame.java
 CompilationAction 1444829651885 BowlingGame.java
 EditAction 1444829693076 BowlingGame.java 1596 8 11 0
+RefactoringAction 1444829743385 BowlingGame.java ADD int totalScore FIELD
+EditAction 1444829870524 BowlingGame.java 1667 8 12 0

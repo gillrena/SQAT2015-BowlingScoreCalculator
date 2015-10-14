@@ -11,11 +11,13 @@ public class BowlingGame {
 	private int frameCounter = 0;
 	private int prevTotalScore = 0;
 	private int curScore = 0;
+	private int totalScore = 0;
 	private int bonusForPrevFrame = 0;
 	
 	public void BowlingGame(int firstThrow, int secondThrow){
 		setScore(firstThrow, secondThrow);
 		setBonus(firstThrow, secondThrow);
+		totalScore = this.score() + curScore;
 	}
 	
 	public void addFrame(Frame frame){
