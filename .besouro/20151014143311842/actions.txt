@@ -57,3 +57,9 @@ RefactoringAction 1444827627026 BowlingGame.java RENAME prevTScore=>int prevTota
 CompilationAction 1444827669224 BowlingGame.java
 RefactoringAction 1444827708069 Frame.java RENAME bonus(int)=>int bonus() METHOD
 EditAction 1444827709273 Frame.java 1428 10 12 0
+CompilationAction 1444827709564 Frame.java
+CompilationAction 1444827711913 Frame.java
+RefactoringAction 1444827918617 BowlingGame.java ADD Frame getPrevFrame()/2 METHOD
+RefactoringAction 1444827921636 BowlingGame.java RENAME getPrevFrame()/2=>Frame getCFrame() METHOD
+RefactoringAction 1444827922649 BowlingGame.java RENAME getCFrame()=>Frame getCurFrame() METHOD
+EditAction 1444827926960 BowlingGame.java 1209 7 7 0

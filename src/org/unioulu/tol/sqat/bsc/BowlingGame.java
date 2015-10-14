@@ -51,4 +51,8 @@ public class BowlingGame {
 		return frames.get(frameCounter-1);
 	}
 	
+	private Frame getCurFrame(){
+		return frames.get(frameCounter);
+	}
+	
 }
