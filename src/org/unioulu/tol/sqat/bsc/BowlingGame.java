@@ -11,7 +11,7 @@ public class BowlingGame {
 	private int prevTotalScore = 0;
 	private int bonusForPrevFrame = 0;
 	
-	public BowlingGame(){
+	public roll(int noOfPins){
 		
 		
 		
