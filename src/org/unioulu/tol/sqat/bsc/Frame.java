@@ -29,13 +29,13 @@ public class Frame {
 	public int score(){
 		//to be implemented
 		int totalScores = 0;
-		if(isStrike()){
+		/*if(isStrike()){
 			totalScores = bonus() + 10;
 		}else if(isSpare()){
 			totalScores = bonus() + 10;
 		}else{
 			totalScores = firstThrow + secondThrow;
-		}
+		}*/
 		
 		return totalScores;
 	}

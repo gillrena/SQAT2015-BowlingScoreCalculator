@@ -36,3 +36,18 @@ CompilationAction 1444827309372 BowlingGame.java
 CompilationAction 1444827315557 BowlingGame.java
 CompilationAction 1444827315711 BowlingGame.java
 EditAction 1444827349219 Frame.java 1433 10 13 0
+CompilationAction 1444827349509 Frame.java
+RefactoringAction 1444827420529 BowlingGame.java ADD int s FIELD
+RefactoringAction 1444827421542 BowlingGame.java REMOVE s FIELD
+RefactoringAction 1444827434554 BowlingGame.java ADD int curScore FIELD
+RefactoringAction 1444827471476 Frame.java REMOVE isLastFrame() METHOD
+RefactoringAction 1444827471476 Frame.java REMOVE isStrike() METHOD
+RefactoringAction 1444827471477 Frame.java REMOVE bonus(int) METHOD
+RefactoringAction 1444827471477 Frame.java REMOVE isSpare() METHOD
+RefactoringAction 1444827472495 Frame.java ADD boolean isStrike() METHOD
+RefactoringAction 1444827472495 Frame.java ADD boolean isSpare() METHOD
+RefactoringAction 1444827472496 Frame.java ADD boolean isLastFrame() METHOD
+RefactoringAction 1444827472496 Frame.java ADD int bonus(int) METHOD
+CompilationAction 1444827474069 Frame.java
+RefactoringAction 1444827529875 BowlingGame.java ADD int bonusForPrevFrame FIELD
+EditAction 1444827556397 BowlingGame.java 1097 6 5 0

@@ -9,6 +9,8 @@ public class BowlingGame {
 	private List<Frame> frames = new ArrayList<Frame>();
 	private Frame bonus;
 	private int frameCounter = 0;
+	private int curScore = 0;
+	private int bonusForPrevFrame = 0;
 	
 	public BowlingGame(){
 		
@@ -27,16 +29,16 @@ public class BowlingGame {
 	public void setBonus(int firstThrow, int secondThrow) {
 		//to be implemented
 		if(getPrevFrame().isStrike()){
-			bonus.bonus(firstThrow);
+			bonusForPrevFrame = firstThrow;
 		}else if(getPrevFrame().isSpare()){
-			bonus.bonus(firstThrow+secondThrow);
+			bonusForPrevFrame = firstThrow+secondThrow;
 		}
 		
 	}
 	
 	public int score(){
 		//to be implemented
-		return 0;
+		curScore = getPrevFrame().score() + bonusForPrevFrame;
 	}
 	
 	public boolean isNextFrameBonus(){
