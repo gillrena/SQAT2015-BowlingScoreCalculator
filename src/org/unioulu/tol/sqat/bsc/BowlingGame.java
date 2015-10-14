@@ -12,10 +12,20 @@ public class BowlingGame {
 	
 	public void addFrame(Frame frame){
 		//to be implemented
+		frames.add(frame);
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) {
 		//to be implemented
+		
+		//Check if there is a strike
+		if(firstThrow==10){
+			
+		}else if((firstThrow+secondThrow)==10){//Check if there is a spare
+			
+		}else{
+			bonus.bonus();
+		}
 	}
 	
 	public int score(){
@@ -25,6 +35,10 @@ public class BowlingGame {
 	
 	public boolean isNextFrameBonus(){
 		//to be implemented
-		return false;
+		if(bonus.bonus()>0){
+			return true;
+		}else{
+			return false;
+		}
 	}
 }
