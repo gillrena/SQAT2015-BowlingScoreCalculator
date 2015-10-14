@@ -19,8 +19,6 @@ public class BowlingGame {
 		if(isNextFrameBonus()){
 			setBonus(firstThrow, secondThrow);
 		}
-		totalScore = this.score() + curScore;
-		
 	}
 	
 	public void addFrame(Frame frame){
@@ -51,7 +49,8 @@ public class BowlingGame {
 	public int score(){
 		//to be implemented
 		prevTotalScore = getPrevFrame().score() + bonusForPrevFrame;
-		return prevTotalScore;
+		totalScore = this.score() + curScore;
+		return totalScore;
 	}
 	
 	public boolean isNextFrameBonus(){

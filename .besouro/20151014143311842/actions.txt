@@ -102,3 +102,4 @@ EditAction 1444829693076 BowlingGame.java 1596 8 11 0
 RefactoringAction 1444829743385 BowlingGame.java ADD int totalScore FIELD
 EditAction 1444829870524 BowlingGame.java 1667 8 12 0
 EditAction 1444829940821 BowlingGame.java 1704 8 12 0
+EditAction 1444829976435 BowlingGame.java 1696 8 12 0
