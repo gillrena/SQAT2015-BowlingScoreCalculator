@@ -86,3 +86,5 @@ CompilationAction 1444829272283 BowlingGame.java
 CompilationAction 1444829272440 TestBowlingScoreCalculator.java
 CompilationAction 1444829277112 TestBowlingScoreCalculator.java
 EditAction 1444829279639 Frame.java 1358 10 14 0
+RefactoringAction 1444829376771 BowlingGame.java REMOVE setScore(int, int) METHOD
+EditAction 1444829381108 BowlingGame.java 1345 7 8 0

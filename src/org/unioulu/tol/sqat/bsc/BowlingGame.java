@@ -13,7 +13,6 @@ public class BowlingGame {
 	
 	public void BowlingGame(int firstThrow, int secondThrow){
 		
-		setScore(firstThrow, secondThrow);
 		setBonus(firstThrow, secondThrow);
 	}
 	
@@ -33,10 +32,6 @@ public class BowlingGame {
 			bonusForPrevFrame = firstThrow+secondThrow;
 		}
 		
-	}
-	
-	public int setScore(int firstThrow, int secondThrow){
-		return firstThrow + secondThrow;
 	}
 	
 	public int score(){
