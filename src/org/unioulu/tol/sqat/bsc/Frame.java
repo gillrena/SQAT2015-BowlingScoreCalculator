@@ -29,6 +29,7 @@ public class Frame {
 	public int score(){
 		//to be implemented
 		int totalScores = firstThrow + secondThrow;
+		
 		return totalScores;
 	}
 
