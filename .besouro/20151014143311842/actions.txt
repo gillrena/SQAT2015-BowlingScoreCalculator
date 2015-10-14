@@ -88,3 +88,14 @@ CompilationAction 1444829277112 TestBowlingScoreCalculator.java
 EditAction 1444829279639 Frame.java 1358 10 14 0
 RefactoringAction 1444829376771 BowlingGame.java REMOVE setScore(int, int) METHOD
 EditAction 1444829381108 BowlingGame.java 1345 7 8 0
+CompilationAction 1444829381374 TestBowlingScoreCalculator.java
+RefactoringAction 1444829402308 BowlingGame.java ADD int curScore FIELD
+RefactoringAction 1444829423882 BowlingGame.java ADD void setScore() METHOD
+RefactoringAction 1444829427898 BowlingGame.java RENAME setScore()=>void setScore(int) METHOD
+RefactoringAction 1444829436927 BowlingGame.java RENAME setScore(int)=>void setScore(int, int) METHOD
+CompilationAction 1444829577543 TestBowlingScoreCalculator.java
+RefactoringAction 1444829620932 TestBowlingScoreCalculator.java REMOVE game FIELD
+RefactoringAction 1444829645262 BowlingGame.java ADD Frame frame FIELD
+CompilationAction 1444829648056 BowlingGame.java
+CompilationAction 1444829651885 BowlingGame.java
+EditAction 1444829693076 BowlingGame.java 1596 8 11 0
