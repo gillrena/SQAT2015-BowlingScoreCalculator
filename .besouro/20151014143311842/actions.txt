@@ -9,3 +9,18 @@ EditAction 1444824307316 Frame.java 1126 6 9 0
 EditAction 1444824947098 BowlingGame.java 781 5 3 0
 CompilationAction 1444824947350 BowlingGame.java
 EditAction 1444824948711 BowlingGame.java 782 5 4 0
+RefactoringAction 1444825090668 BowlingGame.java ADD void get FIELD
+RefactoringAction 1444825092187 BowlingGame.java RENAME get=>void getPrev FIELD
+RefactoringAction 1444825095205 BowlingGame.java RENAME getPrev=>void getPrevFrame() METHOD
+RefactoringAction 1444825147743 BowlingGame.java ADD int p FIELD
+RefactoringAction 1444825149256 BowlingGame.java RENAME p=>int fram FIELD
+RefactoringAction 1444825154267 BowlingGame.java RENAME fram=>int frameCounter FIELD
+RefactoringAction 1444825278146 BowlingGame.java ADD Frame Frame FIELD
+RefactoringAction 1444825340678 BowlingGame.java REMOVE Frame FIELD
+RefactoringAction 1444826291172 BowlingGame.java ADD void Frame() METHOD
+RefactoringAction 1444826295189 BowlingGame.java RENAME Frame()=>Frame Frame FIELD
+RefactoringAction 1444826817636 Frame.java ADD int getFirstThrow() METHOD
+RefactoringAction 1444826817637 Frame.java ADD void setFirstThrow(int) METHOD
+RefactoringAction 1444826817637 Frame.java ADD int getSecondThrow() METHOD
+RefactoringAction 1444826817638 Frame.java ADD void setSecondThrow(int) METHOD
+EditAction 1444826818897 Frame.java 1449 10 14 0

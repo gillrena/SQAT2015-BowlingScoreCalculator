@@ -9,6 +9,22 @@ public class Frame {
 		this.secondThrow = secondThrow;
 	}
 	
+	public int getFirstThrow() {
+		return firstThrow;
+	}
+
+	public void setFirstThrow(int firstThrow) {
+		this.firstThrow = firstThrow;
+	}
+
+	public int getSecondThrow() {
+		return secondThrow;
+	}
+
+	public void setSecondThrow(int secondThrow) {
+		this.secondThrow = secondThrow;
+	}
+
 	//the score of a single frame
 	public int score(){
 		//to be implemented
@@ -53,6 +69,9 @@ public class Frame {
 	//bonus throws
 	public int bonus(){
 		//to be implemented
+		if(isStrike()){
+			
+		}
 		return 0;
 	}
 }
