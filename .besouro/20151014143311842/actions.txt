@@ -66,3 +66,7 @@ EditAction 1444827926960 BowlingGame.java 1209 7 7 0
 EditAction 1444828001713 BowlingGame.java 1302 7 7 0
 EditAction 1444828068897 Frame.java 1273 10 12 0
 EditAction 1444828070672 Frame.java 1277 10 12 0
+RefactoringAction 1444828341024 BowlingGame.java REMOVE Frame FIELD
+FileOpenedAction 1444828378371 TestSudokuVerifier.java 719 2 8 2
+FileOpenedAction 1444828400658 TestSudokuVerifier.java 719 2 8 2
+EditAction 1444828443019 TestBowlingScoreCalculator.java 237 1 1 0

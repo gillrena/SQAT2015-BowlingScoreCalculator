@@ -5,7 +5,6 @@ import java.util.List;
 
 public class BowlingGame {
 	//a bowling game is made of (at least) 10 frames
-	private Frame Frame;
 	private List<Frame> frames = new ArrayList<Frame>();
 	private Frame bonus;
 	private int frameCounter = 0;
