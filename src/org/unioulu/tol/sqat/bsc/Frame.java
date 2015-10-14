@@ -67,7 +67,7 @@ public class Frame {
 	}
 
 	//bonus throws
-	public int bonus(int bonus){
+	public int bonus(){
 		//to be implemented
 		return bonus;
 	}

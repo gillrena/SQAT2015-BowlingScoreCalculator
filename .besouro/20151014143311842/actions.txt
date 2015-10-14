@@ -51,3 +51,9 @@ RefactoringAction 1444827472496 Frame.java ADD int bonus(int) METHOD
 CompilationAction 1444827474069 Frame.java
 RefactoringAction 1444827529875 BowlingGame.java ADD int bonusForPrevFrame FIELD
 EditAction 1444827556397 BowlingGame.java 1097 6 5 0
+CompilationAction 1444827556645 BowlingGame.java
+RefactoringAction 1444827626009 BowlingGame.java RENAME curScore=>int prevTScore FIELD
+RefactoringAction 1444827627026 BowlingGame.java RENAME prevTScore=>int prevTotalScore FIELD
+CompilationAction 1444827669224 BowlingGame.java
+RefactoringAction 1444827708069 Frame.java RENAME bonus(int)=>int bonus() METHOD
+EditAction 1444827709273 Frame.java 1428 10 12 0
